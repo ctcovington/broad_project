@@ -15,11 +15,11 @@
 ### Setup and Necessary Tools <a name='Setup'></a>
 
 As recommended in the project description, I downloaded the following packages. I've included steps that worked for me on Ubuntu Linux.
-1. Install [vcftools](#https://vcftools.github.io/index.html). In order to use `vcftools` from the command line, you will likely need to add the directory location to your path. For example, I installed `vcftools` in `/home/christian/applications/` and I added the following to my .bashrc file:
+1. Install [vcftools](https://vcftools.github.io/index.html). In order to use `vcftools` from the command line, you will likely need to add the directory location to your path. For example, I installed `vcftools` in `/home/christian/applications/` and I added the following to my .bashrc file:
 ```
 export PATH="/home/christian/applications/vcftools_0.1.13/bin:$PATH"
 ```
-2. Install [PLINK](#http://zzz.bwh.harvard.edu/plink/). Getting this to work varies a bit by OS, but on Linux it is as easy as copying the executable from the `.zip` file to a location on your path. I chose to copy it to `usr/local/bin`
+2. Install [PLINK](http://zzz.bwh.harvard.edu/plink/). Getting this to work varies a bit by OS, but on Linux it is as easy as copying the executable from the `.zip` file to a location on your path. I chose to copy it to `usr/local/bin`
 
 3. Install [eigensoft](https://data.broadinstitute.org/alkesgroup/EIGENSOFT/EIG-6.1.4.tar.gz). You can follow very similar instructions to `vcftools`. I ended up installing to the same `applications` directory and adding the following to my .bashrc file
 ```
