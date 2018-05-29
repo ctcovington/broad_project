@@ -52,7 +52,7 @@ Note that I am using version 6.1.4 (rather than the newest version 7.2.1) becaus
 ### Code <a name='Code'></a>
 
 - `00_raw_to_pca.sh`
-  - Unzips raw data, filters data, convert to PLINK format, and run PCA
+  - Unzip raw data, filter data, convert to PLINK format, and run PCA
 - `01_pca_visualization_modeling.py`
   - Load PCA data, predict ancestry, and visualize PCA vs. ancestry relationship in various subsets
 
