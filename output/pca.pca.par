@@ -1,0 +1,11 @@
+genotypename: ../data/plink/merge.bed
+snpname: ../data/plink/merge.bim
+indivname: ../data/plink/merge.fam
+evecoutname: ../output/pca.pca.evec
+evaloutname: ../output/pca.eigen
+altnormstyle: NO
+numoutevec: 10
+numoutlieriter: 5
+numoutlierevec: 10
+outliersigmathresh: 6
+qtmode: 0

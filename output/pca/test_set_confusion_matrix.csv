@@ -1,0 +1,9 @@
+Actual/Predicted,afr,amr,eas,fin,nfe,sas
+afr,70,0,0,0,0,0
+amr,0,35,0,0,0,0
+eas,0,0,54,0,0,0
+fin,0,0,0,12,2,0
+nfe,0,0,0,2,35,0
+sas,0,0,0,0,0,48
+
+test set performance: 0.9844961240310077 proportion correct
