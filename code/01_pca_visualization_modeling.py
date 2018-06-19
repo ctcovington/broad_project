@@ -77,7 +77,7 @@ def predictAncestry(df, pca_cols, confusion_path, predictions_path, full_df_path
                   (pd.notnull(df['ancestry'])) & (df['selection_num'] >= 0.8),
                   (pd.isnull(df['ancestry']))]
     choices = ['train', 'test', 'missing']
-    df['sample'] = np.select(conditions, choices) #
+    df['sample'] = np.select(conditions, choices) # create 'sample' column with values (from choices) based on conditions (from conditions)
     del df['selection_num'] # delete random number column, as it is now extraneous
 
     # separate data into observations with/without ancestry -- split observations with ancestry into train/test sets
